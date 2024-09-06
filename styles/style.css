@@ -454,5 +454,11 @@ colour change when hovering over contact email -Nathan Rance */
     margin: 25px; /* Adds a margin around the sections */
     padding: 25px; /* Adds padding inside the sections */
     border-radius: 5px;} /* Rounds the corners of the sections */
+
+.sectionjobs h2 h3 {margin-top: 15px; /* Adds top margin to headings in sections */
+    margin-bottom: 15px} /* Adds bottom margin to headings in sections */
+	
+ol {margin-top: 15px; /* Adds top margin to ordered list */
+    margin-bottom: 15px} /* Adds bottom margin to ordered list */
   
   
