@@ -23,7 +23,7 @@ body {font-family: "DM Serif Text", serif;
 
 
 /* apply pages background colour change -Nathan Rancie */
-#apply_body{background: linear-gradient(to bottom, black, rgb(96, 211, 249)) !important}
+#apply_body{background: linear-gradient(to bottom, black, rgb(96, 211, 249)) }
 
 
 
@@ -81,60 +81,60 @@ legend {background-color: white;
   /* CSS for index page */
 
 
-header {position:relative !important;
-      display:block !important;
-      max-width:100% !important;
-      min-height: 50% !important;
-      height: 7vh !important;
-      margin: auto !important;
-      padding:1% 1% !important;
+header {position:relative ;
+      display:block ;
+      max-width:100% ;
+      min-height: 50% ;
+      height: 7vh ;
+      margin: auto ;
+      padding:1% 1% ;
       /* background:#292828; */
-      background: black !important;
-      color:#d9d9d9 !important;
+      background: black ;
+      color:#d9d9d9 ;
 }
 
 header h1 {
-      line-height: 45px !important;
-      font-style: normal !important;
-      font-size:2.5em !important;
-      margin: 0 !important;
-      position: relative !important;
-      display:inline !important;
-      border-bottom: 2px solid #d9d9d9 !important;
-      padding-right: 30% !important;
+      line-height: 45px ;
+      font-style: normal ;
+      font-size:2.5em ;
+      margin: 0 ;
+      position: relative ;
+      display:inline ;
+      border-bottom: 2px solid #d9d9d9 ;
+      padding-right: 30% ;
       
       /* badding-top: */
 }
 nav {
-      line-height: 45px !important;
-      padding-left: 0% !important;
-      padding-right: 0% !important;
-      padding-top: 0px !important;
-      padding-bottom: 50px !important;
-      margin-top: 0 !important;
-      margin-bottom: 0 !important;
-      list-style: none !important;
+      line-height: 45px ;
+      padding-left: 0% ;
+      padding-right: 0% ;
+      padding-top: 0px ;
+      padding-bottom: 50px ;
+      margin-top: 0 ;
+      margin-bottom: 0 ;
+      list-style: none ;
       /* float:right; */
-      display:inline !important;
-      color:white !important;
+      display:inline ;
+      color:white ;
 
 }
 
 nav a {
-      color:#d9d9d9 !important;
-      text-decoration: none !important;
+      color:#d9d9d9 ;
+      text-decoration: none ;
       padding: 5px;
-      border-bottom: 2px solid #d9d9d9 !important;
-      padding-right: 3% !important;
+      border-bottom: 2px solid #d9d9d9 ;
+      padding-right: 3% ;
       /* padding-right: 50px; */
-      white-space: nowrap !important;
-      text-align: center !important;
+      white-space: nowrap ;
+      text-align: center ;
 }
 
 nav a:hover {
-      font-style: underline !important;
-      color: white !important;
-      border-bottom: 2px solid white !important;
+      font-style: underline ;
+      color: white ;
+      border-bottom: 2px solid white ;
 }
 
 #index_body{background: linear-gradient(to bottom, #050404, rgb(96, 211, 249))}
@@ -302,6 +302,8 @@ footer{
       padding: 1rem;
 }
 
+
+#youtube_link {color:white;}
 /* spacing for each div in footer along with 
 colour change when hovering over contact email -Nathan Rance */
 
@@ -394,5 +396,69 @@ colour change when hovering over contact email -Nathan Rance */
       text-decoration: none;
       border-bottom: 2px solid #333;  /*bottom border for mail link*/
   }
+/* CSS for jobs page - Aniket Moharana */
+
+#bodyjobs { background : linear-gradient(to bottom, black, rgb(96, 211, 249));} /* Sets background colour for the body, from apply page, Nathan Rancie */
+
+#jobspagetitle {color: #d9d9d9;} /*Sets background colour to grey to contrast with body background */
+
+#mainjobs { padding: 30px;} /* Adds padding to the main content */
+
+.labeljobs { 
+    font-size: 1.3em; /* Sets font size for labels */
+    font-weight: bold;} /* Makes labels bold */
+
+
+#searchjobs { 
+    background: white; /* Sets background colour for the search division */
+    border-radius: 5px; /* Rounds the corners of the search division */
+    padding: 20px; /* Adds padding inside the search division */
+    text-align: center; /* Centres align the text in the search division */
+    margin: 30px} /* Adds a margin around the search division */
+
+#searchbar { 
+    width:90%; /* Sets width of the search bar */
+    padding: 10px; /* Adds padding inside the search bar */
+    font-size: 1em; /* Sets font size for the search bar */
+    margin: 25px;} /* Adds a margin around the search bar */
+
+.selection { 
+    padding: 10px; /* Adds padding to the selection dropdowns */
+    font-size: 0.9em; /* Sets font size for dropdown list */
+    margin: 5px; /* Adds a margin around selection dropdowns */
+    cursor: pointer;} /* Changes cursor to pointer when hovering over*/
+
+.buttonjobs { 
+    background-color: #232323; /* Sets background colour of buttons */
+    color: white; /* Sets text color of buttons */
+    padding: 5px 5px; /* Adds padding to buttons */
+    font-size: 1em; /* Sets font size of buttons */
+    border: none; /* Removes the border from buttons */
+    border-radius: 5px; /* Rounds the corners of buttons */
+    cursor: pointer;} /* Changes cursor to pointer when hovering */
+
+.buttonjobs:hover { background: #959595;} /* Changes background colour when hovering over*/
+
+
+.description { 
+    display: flex; /* Use flexbox to lay paragraphs next to heading*/
+    align-items: center;} /* Centres elements vertically */
+
+
+.description p { padding-left: 5px;} /* Adds padding to paragraphs within description, spacing from headings */
+
+.sectionjobs { 
+    background: white; /* Sets background colour for job sections */
+    margin-top: 35px; /* Adds top margin */
+    margin-bottom: 35px; /* Adds bottom margin */
+    margin: 25px; /* Adds a margin around the sections */
+    padding: 25px; /* Adds padding inside the sections */
+    border-radius: 5px;} /* Rounds the corners of the sections */
+
+.sectionjobs h2 h3 {margin-top: 15px; /* Adds top margin to headings in sections */
+    margin-bottom: 15px} /* Adds bottom margin to headings in sections */
+	
+ol {margin-top: 15px; /* Adds top margin to ordered list */
+    margin-bottom: 15px} /* Adds bottom margin to ordered list */
   
   

@@ -14,7 +14,11 @@ description: apply page for our website-->
         <link href="styles/style.css" rel="stylesheet" />
         <title>Apply</title>
     </head>
+
+    <!--Apply page body-->
     <body id="apply_body">
+
+        <!--header and nav-->
         <header>
             <h1>Enable Solutions</h1>
             <nav>
@@ -25,11 +29,14 @@ description: apply page for our website-->
                 <a href="enhancements.html">Enhancements</a>
             </nav>
         </header>
+
+        <!--main body of apply page-->
         <section id="main">
             <form
                 method="post"
                 action="http://mercury.swin.edu.au/it000000/formtest.php"
             >
+                <!--fieldset for job reference number-->
                 <fieldset>
                     <div>
                         <label for="jobref">Job Reference Number:</label>
@@ -45,7 +52,8 @@ description: apply page for our website-->
                         />
                     </div>
                 </fieldset>
-
+                
+                <!--fieldset for personal details-->
                 <fieldset>
                     <legend>Personal Details</legend>
                     <div>
@@ -88,7 +96,8 @@ description: apply page for our website-->
                         />
                     </div>
                 </fieldset>
-
+                
+                <!--fieldset for gender-->
                 <fieldset>
                     <legend>Gender</legend>
 
@@ -126,6 +135,7 @@ description: apply page for our website-->
                     </div>
                 </fieldset>
 
+                <!--fieldset for address-->
                 <fieldset>
                     <legend>Address</legend>
                     <div>
@@ -183,7 +193,8 @@ description: apply page for our website-->
                         />
                     </div>
                 </fieldset>
-
+                
+                <!--fieldset for contact information-->
                 <fieldset>
                     <legend>Contact Information</legend>
 
@@ -211,6 +222,7 @@ description: apply page for our website-->
                     </div>
                 </fieldset>
 
+                <!--fieldset for relevant skills-->
                 <fieldset>
                     <legend>Relevant Skills</legend>
 
@@ -260,7 +272,7 @@ description: apply page for our website-->
                         />
                         &emsp;
 
-                        <lable for="otherskills">Other Skills</lable>
+                        <label for="otherskills">Other Skills</label>
                         <input
                             type="checkbox"
                             id="otherskills"
@@ -271,17 +283,22 @@ description: apply page for our website-->
                     <br />
                     <div>
                         <label for="skill">Description of Skill:</label> <br />
-                        <textarea id="skill" name="skill" rows="4" cols="40" 
+                        <textarea id="skill" name="description of skill" rows="4" cols="40" 
                             placeholder="Please enter a decription of your skill here">
                         </textarea>
+                        <!--placeholder doesnt seem to work cant find why-->
                     </div>
                 </fieldset>
+
+                <!--submit and reset buttons-->
                 <div id="buttons">
                     <input type="submit" id="apply" value="Apply" />
                     <input type="reset" value="Reset Form" />
                 </div>
             </form>
         </section>
+
+        <!--footer with nav and other info-->
         <footer>
             <div id="Contact">
                 <p>Contact us at:</p>
